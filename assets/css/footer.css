@@ -1,0 +1,119 @@
+footer {
+  width: 100%;
+  background: linear-gradient(to right, #00093c, #2d0b00);
+  border-top-left-radius: 125px;
+  color: #fff;
+  padding: 100px 0 30px;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.row {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.col {
+  flex-basis: 25%;
+  padding: 10px;
+}
+
+.logo {
+  width: 80px;
+  margin-bottom: 20px;
+}
+
+.col h3 {
+  width: fit-content;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.email-id {
+  width: fit-content;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px 0;
+}
+
+ul li {
+  list-style: none;
+  margin-bottom: 12px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+form {
+  padding-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 50px;
+}
+
+form .fa-solid {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+form input {
+  width: 100%;
+  background: transparent;
+  color: #ccc;
+  border: 0;
+  outline: none;
+}
+
+form button {
+  background: transparent;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+form .fa-arrow-right {
+  font-size: 16px;
+  color: #ccc;
+}
+
+.social-icon .fa-solid {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  color: #000;
+  background-color: #fff;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.social-icon .fa-brands {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  color: #000;
+  background-color: #fff;
+  margin-right: 15px;
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  .end {
+    height: auto;
+  }
+  .row {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}
